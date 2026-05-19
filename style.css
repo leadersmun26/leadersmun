@@ -47,7 +47,13 @@ nav {
   transition: box-shadow 0.3s; background: var(--navy);
 }
 .logo-circle:hover { box-shadow: 0 0 16px rgba(197,168,100,0.4); }
-.logo-circle img { width: 100%; height: 100%; object-fit: cover; }
+.logo-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+  display: block;
+}
 .nav-logo-text {
   color: var(--gold); font-family: 'Cormorant Garamond', serif;
   font-size: 13px; font-weight: 700; letter-spacing: 5px;
