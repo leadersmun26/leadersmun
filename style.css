@@ -385,8 +385,8 @@ footer { background: #060c20; border-top: 1px solid var(--gold); padding: 50px 4
 .apply-card:hover .apply-cta { opacity: 1; transform: translateY(0); }
 
 .apply-grid-two {
-  grid-template-columns: repeat(2, 1fr);
-  max-width: 680px;
+  grid-template-columns: repeat(1, 1fr);
+  max-width: 340px;
 }
 @media (max-width: 768px) {
   .apply-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
